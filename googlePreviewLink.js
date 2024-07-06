@@ -149,6 +149,7 @@
                 "Upgrade-Insecure-Requests": "1",
                 "Cache-Control": "max-age=0"
             },
+            cors:true,
             anonymous: true,
             onload: function(response) {
                 console.log('Content loaded successfully');
